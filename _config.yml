@@ -1,16 +1,26 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# Permalinks
+permalink:           pretty
 
 # Setup
-description:      An undergraduate from Nanjing University, Department of Computer Science and Technology
-email: wcysai@foxmail.com
-url:              http://wcysai.github.io
-baseurl:          /
+title:              wcysai
+tagline:             a blog
+url:                 http://getpoole.com
+paginate:            1
+baseurl:             ""
 
-paginate:         5
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
 
 # Custom vars
-version:          2.1.0
+version:             2.0.0
+github:             https://github.com/wcysai
 
-github:              https://github.com/wcysai
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
