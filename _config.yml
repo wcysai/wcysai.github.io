@@ -3,15 +3,10 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Setup
-title:            wcysai
-tagline:          'A Jekyll theme'
 description:      An undergraduate from Nanjing University, Department of Computer Science and Technology
+email: wcysai@foxmail.com
 url:              http://wcysai.github.io
 baseurl:          /
-
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
 
 paginate:         5
 
