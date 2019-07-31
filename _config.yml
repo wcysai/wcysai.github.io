@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            wcysai
 tagline:          'A Jekyll theme'
 description:      An undergraduate from Nanjing University, Department of Computer Science and Technology
-url:              http://hyde.getpoole.com
+url:              http://wcysai.github.io
 baseurl:          /
 
 author:
