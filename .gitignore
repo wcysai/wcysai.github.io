@@ -1,8 +1,10 @@
 _site
-node_modules
-npm-debug.log
 .DS_Store
-*/.DS_Store
-*/*/.DS_Store
-*.sh
-.vscode
+.jekyll
+.jekyll-metadata
+.bundle
+.sass-cache
+Gemfile
+Gemfile.lock
+node_modules
+package.json
