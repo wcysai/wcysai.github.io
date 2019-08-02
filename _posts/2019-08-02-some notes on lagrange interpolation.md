@@ -3,7 +3,7 @@ layout: post
 title: Some notes on Lagrange interpolation
 ---
 
-有关Lagrange interpolation, 一般来说是对于一个$m$次多项式，给定\(m+1\)$个点值表示$(x_0,y_0),(x_1,y_1),\dots,(x_m,y_m)$,可以在$O(m^2)$时间内求出多项式的系数表示$f(x)$:
+有关Lagrange interpolation, 一般来说是对于一个$m$次多项式，给定\(m+1\)​个点值表示$(x_0,y_0),(x_1,y_1),\dots,(x_m,y_m)$,可以在$O(m^2)$时间内求出多项式的系数表示$f(x)$:
 $$
 f(x)=\sum\limits_{i=0}^{m}y_il_i(x)
 $$
