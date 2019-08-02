@@ -3,7 +3,7 @@ layout: post
 title: Starting From Topcoder SRM 527 Div1 Hard...
 ---
 
-这个问题最初是在Petr Mitrichev 的博客上看到的，来自于由rng_58(Makoto Soejima)出的Topcoder SRM 527 Div.1 Hard, 题面描述可以在Topcoder网站上找到[P8XCoinChange](https://community.topcoder.com/stat?c=problem_statement&pm=11155&rd=14552)。 题意大概是这样的:
+这个问题最初是在Petr Mitrichev 的博客上看到的，来自于由rng_58出的Topcoder SRM 527 Div.1 Hard, 题面描述可以在Topcoder网站上找到[P8XCoinChange](https://community.topcoder.com/stat?c=problem_statement&pm=11155&rd=14552)。 题意大概是这样的:
 
 > 现在有$n$种面值的货币$a_1,a_2,\dots,a_n$，满足$1=a_1<a_2<\dots<a_n$且对于$2\leq i\leq n$有$a_{i-1}\mid a_i$,现在要求用这$n$种面值的货币购买价值为$m$的物品的方案数，假设每种货币的数量无限，答案对$10^6+3$取模。其中$1\leq n\leq 40,1\leq m,a_i\leq 10^{18}$
 
