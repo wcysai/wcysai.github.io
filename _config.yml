@@ -2,7 +2,6 @@
 permalink:           pretty
 
 # Setup
-markdown:           maruku
 title:              wcysai
 tagline:             a blog
 url:                 http://getpoole.com
