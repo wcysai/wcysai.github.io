@@ -30,21 +30,3 @@ title: Starting From Topcoder SRM 527 Div1 Hard...
 接下来的事情就很简单了，利用上一篇博客[Some notes on Lagrange interpolation](https://wcysai.github.io/2019/08/02/some-notes-on-lagrange-interpolation/)的方法对多项式进行插值，便可以在$O(n^3)$的时间内求出一组数据的答案。
 
 然而，类似的问题，还出现在了[XVII Open Cup named after E.V. Pankratiev, Grand Prix of China](http://opencup.ru/files/och/gp11/problems2-e.pdf)上(C题)，你能根据上面的介绍，想出应当如何解决吗？
-$$
-f(x)=\sum\limits_{i=0}^{m}y_il_i(x)
-$$
-其中$l_i(x)$是Lagrange基函数:
-$$
-l_i(x)=\prod\limits_{0\leq j\leq m,i\neq j}\frac{x-x_j}{x_i-x_j}
-$$
-
-
-这个插值的正确性无需赘述，值得一提的是可以通过分治FFT以及多项式多点求值在$O(m(\log{m})^2)$的时间内快速求出。
-
-然而，当点值表达式的形式是$x_{i}=i$的时候，多项式的表达式就变得更为简洁:
-$$
-f(x)=\sum\limits_{i=0}^{m}(-1)^{m-i}\binom{x-i-1}{m-i}\binom{n}{i}f(i)=\sum\limits_{i=0}^{m}\frac{(-1)^{m-i}}{i!(m-i)!}f(i)\prod\limits_{0\leq j\leq m,i\neq j}(n-j)
-$$
-
-
-在这种情况下，通过预处理$1--m$的的阶乘逆元以及$n-j$的前缀积和后缀积，可以在$O(m)$的时间内通过$m+1$个点值插出$f(n)$的值。
