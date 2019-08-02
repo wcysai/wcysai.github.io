@@ -5,7 +5,7 @@ permalink:           pretty
 title:               wcysai
 tagline:             a blog
 url:                 http://getpoole.com
-paginate:            1
+paginate:            3
 baseurl:             ""
 
 # Assets
