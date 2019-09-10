@@ -19,6 +19,6 @@ $X=(i_2-i_1，a_{i_2}-a_{i_1}),Y=(j_2-j_1，b_{j_2}-b_{j_1})$
 
 > 对于点集$S_1$和$S_2$，在最优解下，只有在下凸包上的点会被经过
 
-这个结论的证明并不复杂，只要利用一些叉积的几何性质即可，在这里略去（才不是因为懒得画图）。这样，我们可以得到一个改进了的算法: 根据下一步的叉积的符号，选择在第一个点集的凸包上向右移动一步，或者在第二个点集的凸包上向右移动一步。对于这个改进了的贪心，竟然可以被证明是正确的!证明方法也不难，就留作读者思考吧(笑)。 至此，我们以$O(n+m)$的复杂度解决了这个问题。
+这个结论的证明并不复杂，只要利用一些叉积的几何性质即可，在这里略去（才不是因为懒得画图）。这样，我们可以得到一个改进了的算法: 根据下一步的叉积的符号，选择在第一个点集的凸包上向右移动一步，或者在第二个点集的凸包上向右移动一步。对于这个改进了的贪心，竟然可以被证明是正确的!证明方法也不难，就留作读者思考吧\(笑\)。 至此，我们以$O(n+m)$的复杂度解决了这个问题。
 
 AC代码链接: [Petrozavodsk Summer-2013. Gennady Korotkevich Contest 1 I. Icy Roads of Nomel]([https://github.com/wcysai/CodeLibrary/blob/master/Contests/Petrozavodsk%20Summer-2013.%20Gennady%20Korotkevich%20Contest%201/I.cpp](https://github.com/wcysai/CodeLibrary/blob/master/Contests/Petrozavodsk Summer-2013. Gennady Korotkevich Contest 1/I.cpp))
