@@ -5,7 +5,7 @@ title: Elegant Brute Force
 
 今天在ZJU训练[XIV Open Cup named after E.V. Pankratiev. GP of SPb](http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=010231)的时候遇到了这样一个有趣的题目，看起来是一个十分简单的bitmask dp，但是数据范围却令人感到头疼:
 
-> Alice和Bob正在玩一个游戏。 给定$n$个字符串$s_1,s_2,\dots,s_n$. 双方轮流选择$26$个字母中的$1$个，且不能选择已经被选过的字母。当一个人选择完了一个字母后，如果只用所有选择过的字母可以组成某个字符串$s_i$,那么这个人输掉游戏。现在想问在双方决策都最优的情况下，是先手会赢还是后手会赢?
+> Alice和Bob正在玩一个游戏。 给定$n$个字符串$s_1,s_2,\dots,s_n$. 双方轮流选择$26$个字母中的$1$个，且不能选择已经被选过的字母。当一个人选择完了一个字母后，如果只用所有选择过的字母可以组成某个字符串$s_i$,那么这个人输掉游戏。现在想问在双方决策都最优的情况下，是先手会赢还是后手会赢? 其中$\sum\limits_{i=1}^{n}\vert s_i\vert \leq 10^6$
 
 很明显，这里的每个字符串都可以转化成一个bitmask，游戏的要求也变成了每次添加一位，使得不存在某个bitmask是当前bitmask的子集。
 
