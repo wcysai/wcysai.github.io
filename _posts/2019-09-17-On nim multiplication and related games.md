@@ -179,4 +179,4 @@ nim-multiplication本身还具有交换律和结合律:
 
 > 求一个$n\times n$的矩阵$A$在nim addition和nim multiplcation所定义的域下的permanent. 其中$1\leq n\leq 150$, $0\leq A_{i,j}<2^{64}$.
 
-计算一般域下矩阵的permanent显然是NP-Hard的，但是这个域的characteristic是2，因此矩阵的permanent就等于它的行列式(例:求一个二部图的完美匹配数模二意义下的余数)，高斯消元即可。这里还涉及到一些复杂度的优化，有兴趣的同学可以尝试一下。
+计算一般域下矩阵的permanent显然是NP-Hard的，但是这个域的characteristic是2，因此矩阵的permanent就等于它的行列式（例:求一个二部图的完美匹配数模二意义下的余数），高斯消元即可。这里还涉及到一些复杂度的优化，有兴趣的同学可以尝试一下。
