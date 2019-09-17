@@ -65,7 +65,7 @@ Turning Games,指的是一类这样的游戏: 有$n$枚硬币排成一排，其�
 
 > 定理: 对于Motley游戏，$G(x)=2^x$
 
-## Twins,Trplets, Etc.
+## Twins,Triplets, Etc.
 
 在Twins游戏中，每个人必须翻转**恰好**$2$枚硬币，但最右边一枚硬币一开始一定是正面朝上的。
 
