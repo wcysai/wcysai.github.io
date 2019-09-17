@@ -39,7 +39,7 @@ Turning Games,指的是一类这样的游戏: 有$n$枚硬币排成一排，其�
 
 通过打表我们可以看出$G(n)$总是$2n$或者$2n+1$,进一步观察发现$G(n)=\begin{cases} 2n & n\text{ is odious} \\ 2n+1 & n\text{ is evil}\end{cases}$
 
-其中odious表示二进制位中有奇数个$1$，even表示二进制位中有偶数个$1$.
+其中odious表示二进制位中有奇数个$1$，evil表示二进制位中有偶数个$1$.
 
 证明的话可以考虑通过Sprague-Grundy定理，$G(n)$是不是以下任何一种形式的最小的非负整数:
 
