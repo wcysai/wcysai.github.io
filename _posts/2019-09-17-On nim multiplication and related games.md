@@ -51,7 +51,7 @@ Turning Games,指的是一类这样的游戏: 有$n$枚硬币排成一排，其�
 
 我们之前讨论了$t=2$和$t=3$的情况，实际上，只有$t=2m+1$的情况是有趣的(为什么?之后会说)。对于$t=3$的情况称作Mocking Turtles,$t=5$的情况称作Moebius,$t=7$的情况称作Mogul,$t=9$的情况称作Gold Moidores.对于$t>3$情况下的$G(n)$的计算没有直接的公式，但是下面的The Mock Turtle Theorem给出了$t=2m$和$t=2m+1$下$G(n)$的关系:
 
-> The Mock Turtle Theorem: 对于$t=2m+1$的情况，所有$G(n)$的二进制位中都包含奇数个$1$,且$t=2m$时的$G(n)$是$t=2n+1$时的$G(n)$值去掉最后一个二进制位的值(即除以二下取整)
+> The Mock Turtle Theorem: 对于$t=2m+1$的情况，所有$G(n)$的二进制位中都包含奇数个$1$,且$t=2m$时的$G(n)$是$t=2n+1$时的$G(n)$值去掉最后一个二进制位的值（即除以二下取整）
 
 对于这个定理的证明以及关于这些游戏的更多信息，可以参照由Elwyn R.Berlekamp,John H.Conway和Richard K.Guy写的*Winning Ways For Your Mathematical Plays,Volume 3*
 
@@ -103,7 +103,7 @@ Turning Games,指的是一类这样的游戏: 有$n$枚硬币排成一排，其�
 
 这是一个更加有趣的例子，也正是在这个例子里我们得以引出nim multiplication的概念。在这个例子中，每个人可以翻转某一个矩形的四个角上的硬币，但最右下一枚硬币一开始一定是正面朝上的。
 
-根据Sprague-Grundy定理，$G(a,b)=mex\big\{G(a',b),G(a,b'),G(a',b')\big\}$,其中$a'$和$b'$是满足$0\leq a'<a,0\leq b'<b$的任意数字。在这里，我们先给出$a,b<16$的$SG$值的表（下标从$0$开始):
+根据Sprague-Grundy定理，$G(a,b)=mex\{G(a',b),G(a,b'),G(a',b')\}$,其中$a'$和$b'$是满足$0\leq a'<a,0\leq b'<b$的任意数字。在这里，我们先给出$a,b<16$的$SG$值的表（下标从$0$开始):
 
 | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
