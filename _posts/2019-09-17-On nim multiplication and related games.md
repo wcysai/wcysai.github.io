@@ -3,7 +3,7 @@ layout: post
 title: On nim multiplication and some related games
 ---
 
-这篇blog要介绍的是有关nim multiplication(nim积)的概念以及一些应用。
+这篇blog要介绍的是有关nim multiplication（nim积）的概念以及一些应用。
 
 在这篇blog中，我会用$\oplus$来表示nim和运算，用$\otimes$来表示nim积运算。
 
